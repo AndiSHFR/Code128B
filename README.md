@@ -1,2 +1,3 @@
 # Code128B
-Windows console application to create CODE128 B barcode images
+A windows console application to create code128 (B alphabet) barcode images.
+
