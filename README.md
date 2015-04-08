@@ -1,12 +1,12 @@
 ## Code128B
 A windows console application to create code128 barcode images (B character set).
 
-If you want to get more fimiliar with the barcode itself feel free to read the wikipedia article [Code 128](http://http://en.wikipedia.org/wiki/Code_128).
+If you want to get more familiar with the barcode itself feel free to read the wikipedia article [Code 128](http://http://en.wikipedia.org/wiki/Code_128).
 
 
 ##Get the source code 
 
-Either download the the [zip archive](https://github.com/AndiSHFR/Code128B/archive/master.zip) with the complete source code or clone the repository using your git client.
+Either download the [zip archive](https://github.com/AndiSHFR/Code128B/archive/master.zip) with the complete source code or clone the repository using your git client.
 Links can be found on this page.
 
 
@@ -60,8 +60,8 @@ There are various command line options to control the look of the barcode image.
    * f|foreground    Optional: Foreground color. You can use HTML color codes. i.e. #0080FF.
    * b|background    Optional: Background color. You can use HTML color codes. i.e. #0080FF.
    * s|size          Optional: Font size in pixels.
-   * n|notext        Optional: Display the barcode text on the barcode. Otherwise only the barcode will be drawn.
-   * q|quietzone     Optional: Add leading and trailing quiet zone
+   * n|notext        Optional: Do not display the barcode text on the barcode.
+   * q|quietzone     Optional: Add leading and trailing quiet zone.
    `
 
 ##Examples
