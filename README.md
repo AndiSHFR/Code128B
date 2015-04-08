@@ -66,12 +66,12 @@ There are various command line options to control the look of the barcode image.
 
 ##Examples
 
-* Create a 1024x320 image named barcode.png with the barcode "PU4711".
+* Create a 1024x320 image named barcode.png with the barcode "PDU4711".
 
    `Code128B.exe barcode.png PDU4711`
 
 
-* Create a 1024x320 image named barcode.png with the barcode "PU4711" and yellow background and blue foreground.
+* Create a 1024x320 image named barcode.png with the barcode "PDU4711" and yellow background and blue foreground.
 
    `Code128B.exe --background yellow --foreground blue barcode.png PDU4711`
 
@@ -80,7 +80,7 @@ There are various command line options to control the look of the barcode image.
    `Code128B.exe --background #FFFF00 --foreground #0000FF barcode.png PDU4711`
 
 
-* Create a 1024x320 image named barcode.png with the barcode "PU4711" and yellow background and blue foreground.
+* Create a 1024x320 image named barcode.png with the barcode "PDU4711" and yellow background and blue foreground.
 
    `Code128B.exe --background yellow --foreground blue barcode.png PDU4711`
    
