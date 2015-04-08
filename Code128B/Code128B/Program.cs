@@ -85,7 +85,7 @@ namespace Code128B {
             { "f=|foreground=", "Optional: Foreground color. You can use HTML color codes. i.e. #0080FF", (string v) => foregroundColorName = v },
             { "b=|background=", "Optional: Background color. You can use HTML color codes. i.e. #0080FF", (string v) => backgroundColorName = v },
             { "s=|size=", "Optional: Font size", (int v) => fontSize = v },
-            { "n:|notext:", "Optional: Display the barcode text on the barcode. Otherwise only the barcode will be drawn.", (bool? v) => noText = (null==v) },
+            { "n:|notext:", "Optional: Do not display the barcode text on the barcode.", (bool? v) => noText = (null==v) },
             { "q:|quietzone:", "Optional: Add leading and trailing quiet zone", (int? v) => addQuietZone = (null!=v) },
          };
 
