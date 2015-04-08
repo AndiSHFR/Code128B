@@ -60,7 +60,7 @@ namespace Code128B {
 
     #region Code128 Pattern Table
     private static readonly int _indexStartCodeB = 104;         // Index of the startcode for alphabet B
-    private static readonly int _indexStopCode   = 106;         // Index of the startcode for alphabet B
+    private static readonly int _indexStopCode   = 106;         // Index of the stopcode for alphabet B
     private static readonly int _moduleLen       =  11;         // Each pattern is made up from 11 modules
     private static readonly int _charCount       = 103;         // Number of characters in alphabet.
     private static readonly string _sequenceTerminator = "11";  // Termination sequence
